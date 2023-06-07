@@ -1,3 +1,13 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
 .header {
   height: 30px;
   display: flex;
@@ -5,13 +15,64 @@
   align-items: center;
 }
 
-.ham {
-  size: 300px;
-  color: blue;
+section {
+  padding: 0 27px;
 }
 
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 106px;
+  flex-direction: column;
+  background: url(/pic/mobile1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4D;
+  margin: 0;
+}
+
+.hero2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #36b37E;
+  margin: 0;
+}
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172B4D; 
+}
+
+.social-icons a {
+  color: #505F79;
+  font-size: 1.7em;
+  margin: 0 7px;
+}
+
+.scroll {
+  border: 1px solid black;
+  border-radius: 32px;
+  padding: 10px;
+  margin-top: 82px;
 }
