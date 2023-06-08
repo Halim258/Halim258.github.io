@@ -227,3 +227,29 @@ margin: 24px;
   color: #36b37e;
   font-size: 15px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+input {
+  width: 327px;
+  margin: 7px;
+  height: 48px;
+  border: solid #d0d9d4;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 114px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+margin: 7px;
+border: 1px solid #60c095;
+}
