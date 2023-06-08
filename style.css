@@ -196,3 +196,34 @@ margin: 24px;
   height: 100%;
   z-index: -1;
 }
+
+.s-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-s-card {
+  margin: 0;
+}
+.s-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #EBF0EE;
+  margin-bottom: 24px;
+  height: 327px;
+  border-radius: 8px;
+}
+
+.lang-icon {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.lang-icon li {
+  background-color: #FFFFFF;
+  color: #36b37e;
+  font-size: 15px;
+}
