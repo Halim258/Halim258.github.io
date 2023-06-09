@@ -182,8 +182,8 @@ h3 {
   position: absolute;
   display: grid;
   background-image:
-url("pic/about-left-frame.svg"),
-url("pic/about-right-frame.svg");
+    url("pic/about-left-frame.svg"),
+    url("pic/about-right-frame.svg");
   background-position: 37% 35%, 100% 20%;
   background-repeat: no-repeat;
   width: 100%;
