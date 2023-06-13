@@ -177,6 +177,7 @@ padding: 12px;
 gap: 10px;
 border: none;
 margin: 24px;
+transform: translateX(55%);
 }
 .a-m {
   display: flex;

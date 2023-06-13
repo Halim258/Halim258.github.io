@@ -152,11 +152,14 @@
   <section class="form-container">
     <div class="contact-form">
         <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-        <form class="form">
-          <input placeholder="Full name" type="text">
-          <input placeholder="Email address" type="email">
-          <textarea placeholder="Hey I’d like to connect to..." type="text"></textarea>
-          <button class="btn">Get in touch</button>
+        <form action="https://formspree.io/f/xpzbqzab" id="form-email" method="post">
+        
+          <input class="input" type="text" name="name" id="name" placeholder="Full name" maxlength="30" required />
+          <input class="input" type="email" name="email" id="email" placeholder="Email address" required />
+          <textarea class="msg" name="message" id="message" cols="30" rows="10" placeholder="Write your message here"
+            maxlength="500" required></textarea>
+          <p id="form-message-error"></p>
+          <button class="btn" type="submit">Get In Touch</button>
         </form>
         <span class="email">mohamedHalim96@gmail.com</span>
         <div class="social-icons icons-b">
