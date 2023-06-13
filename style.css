@@ -237,11 +237,14 @@ transform: translateX(55%);
   margin: 24px;
 }
 
+h3 {
+  margin-bottom: 1rem;
+}
 .contact-form {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center;margin-bottom: 1rem;
 }
 
 input {
@@ -250,8 +253,12 @@ input {
   height: 48px;
   border: solid #d0d9d4;
   border-radius: 4px;
+  display: block;
 }
 
+.btns {
+  position: relative;
+}
 textarea {
   height: 114px;
 width: 327px;
@@ -276,4 +283,11 @@ hr {
   width: 40%;
   margin-bottom: 0.5rem;
   margin-top: 1rem;
+}
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
