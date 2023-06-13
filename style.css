@@ -8,6 +8,12 @@
   }
 }
 
+.wrap {
+  max-width: 768px;
+  min-width: 375px;
+  margin: auto;
+  padding: 0 6%;
+}
 .header {
   height: 30px;
   display: flex;
@@ -249,4 +255,71 @@ top: 0px;
 border-radius: 4px;
 margin: 7px;
 border: 1px solid #60c095;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  align-items: center;
+
+}
+
+.contact-form input {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.7rem 0;
+}
+
+.form-container {
+  background-image: url(/pic/Frame@2x.png);
+  background-position: right 0.04px top 550px;
+  background-repeat: no-repeat;
+  background-size: 60px auto;
+}
+
+
+
+
+form {
+  margin-top: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.7rem 0;
+}
+
+.btns {
+  transform: translateX(40%);
+}
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.email {
+  margin-bottom:2rem;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+}
+
+hr {
+  background: #0d151e;
+  border-radius: 10px;
+  width: 35%;
+  height: 5px;
+  margin: auto;
+  bottom: 1rem;
 }
