@@ -236,6 +236,13 @@ margin: 24px;
   margin: 24px;
 }
 
+.contact-form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
 input {
   width: 327px;
   margin: 7px;
