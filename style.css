@@ -212,7 +212,7 @@ margin: 24px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #EBF0EE;
+  background: #eef0ee;
   margin-bottom: 24px;
   height: 327px;
   border-radius: 8px;
@@ -223,7 +223,7 @@ margin: 24px;
   flex-wrap: wrap;
 }
 .lang-icon li {
-  background-color: #FFFFFF;
+  background-color: #fff;
   color: #36b37e;
   font-size: 15px;
 }
