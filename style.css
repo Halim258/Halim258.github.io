@@ -241,8 +241,8 @@ input {
 }
 
 textarea {
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 4px;
   margin: 7px;
   border: 1px solid #60c095;
@@ -286,7 +286,7 @@ form {
 }
 
 .email {
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
 }
 
 ::placeholder {
