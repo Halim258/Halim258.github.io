@@ -14,6 +14,7 @@
   margin: auto;
   padding: 0 6%;
 }
+
 .header {
   height: 30px;
   display: flex;
@@ -35,7 +36,6 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #36b37E;
+  color: #36b37e;
   margin: 0;
 }
 
@@ -61,11 +61,11 @@ p {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #172b4d; 
+  color: #172b4d;
 }
 
 .social-icons a {
-  color: #505F79;
+  color: #505f79;
   font-size: 1.7em;
   margin: 0 7px;
 }
@@ -86,14 +86,13 @@ p {
 }
 
 .resent {
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
 }
 
 hr {
@@ -120,7 +119,7 @@ hr {
   height: 252px;
 }
 
-h3 { 
+h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -141,13 +140,12 @@ h3 {
 }
 
 .small-icon li {
-  font-style: normal;
   font-weight: 600;
   font-size: 11px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3A4A42;
-  background: #EBF0EE;
+  color: #3a4a42;
+  background: #ebf0ee;
   border-radius: 4px;
   display: flex;
   flex-direction: row;
@@ -172,12 +170,14 @@ h3 {
   border: none;
   margin: 24px;
 }
+
 .a-m {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .about-pc {
   position: absolute;
   display: grid;
@@ -201,6 +201,7 @@ h3 {
 .l-s-card {
   margin: 0;
 }
+
 .s-card {
   display: flex;
   flex-direction: column;
@@ -216,6 +217,7 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .lang-icon li {
   background-color: #fff;
   color: #36b37e;
@@ -239,8 +241,6 @@ input {
 }
 
 textarea {
-  height: 114px;
-  width: 327px;
   left: 0px;
   top: 0px;
   border-radius: 4px;
@@ -254,7 +254,6 @@ textarea {
   justify-content: center;
   margin-bottom: 1.5rem;
   align-items: center;
-
 }
 
 .contact-form input {
@@ -273,11 +272,6 @@ textarea {
 
 form {
   margin-top: 1.5rem;
-}
-
-textarea {
-  width: 100%;
-  padding: 0.7rem 0;
 }
 
 .btns {
@@ -300,13 +294,4 @@ textarea {
   padding: 10px;
   font-weight: 400;
   font-size: 13px;
-}
-
-hr {
-  background: #0d151e;
-  border-radius: 10px;
-  width: 35%;
-  height: 5px;
-  margin: auto;
-  bottom: 1rem;
 }
