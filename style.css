@@ -50,10 +50,6 @@ h1 {
   margin: 0;
 }
 
-nav ul {
- display: none;
-}
-
 p {
   font-weight: 400;
   font-size: 20px;
@@ -108,7 +104,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  border: 2px solid #d0d9d4;
   margin: 12px 0;
 }
 
@@ -126,6 +122,30 @@ h3 {
   text-align: center;
   color: #3a4a42;
   margin-bottom: 0;
+}
+
+.small-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  gap: 8px;
+  padding: 0;
+  width: 100%;
+}
+
+.small-icon li {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  min-width: fit-content;
 }
 
 .btn {
@@ -222,7 +242,7 @@ textarea {
   border: 1px solid #60c095;
 }
 
-/* .contact-form {
+.contact-form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -235,7 +255,7 @@ textarea {
   margin-bottom: 1rem;
   width: 100%;
   padding: 0.7rem 0;
-} */
+}
 
 .form-container {
   background-image: url(/pic/Frame@2x.png);
@@ -269,142 +289,6 @@ form {
   font-weight: 400;
   font-size: 13px;
 }
-
 @media (min-width: 769px) and (max-width: 1920px) {
-
-  body {
-    max-width: 1920px;
-    min-width: 769px;
-    margin: auto;
-    padding: 1% 10%;
-    overflow-x: hidden;
-  }
-
-  .wrap {
-    margin: auto;
-    text-align: center;
-  }
-  .works {
-    padding: 0 6%;
-    margin: auto;
-    transform: translateX(-33%);
-  }
-
-  .resent {
-    text-align: center;
-    transform: translateX(60%);
-  }
-
-  .resents {
-    transform: translateX(-10%);
-  }
-  .card-b {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 1rem;
-  }
-
-  .ham {
-    display: none;
-  }
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.3rem;
-  }
-  nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  ul li {
-    list-style: none;
-    margin: 0 1rem;
-  }
-
-  ul li a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    color: #344563;
-  }
-
-   .works {
-      margin: 6%;
-      max-width: 769px;
-   }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      margin: auto;
-    }
-
-    .small-icon {
-     padding: 6%;
-     width: 50%;
-     text-align: center;
-     gap: 0;
-    }
-
-    .div ul {
-      display: flex;
-    }
-
-    .div ul li {
-      display: flex;
-    }
-    .s-card {
-      border: 0;
-    }
-
-    .form-container {
-      display: flex;
-    }
-
-    .contact-form {
-      display: flex;
-      justify-content: space-between;
-      
-      position: relative;
-    }
-
-    .contact-form input {
-     display: block;
-     width: 155%;
-    }
-
-    textarea {
-      width: 155%;
-    }
-
-    .email {
-      display: none;
-    }
-
-    .btn {
-     display: block;
-     transform: translateX(-15%);
-    }
-
-    div {
-      width: 100%;
-    }
-
-    div h3 {
-      margin-right: 1rem;
-    }
-
-    .icons-b {
-     padding-top: 10rem;
-     padding-bottom: 1rem;
-    }
-
-    hr {
-      display: none;
-    }
- }
+  body
+}
