@@ -270,7 +270,6 @@ form {
 }
 
 @media (min-width: 769px) {
-
   body {
     max-width: 1920px;
     min-width: 769px;
@@ -283,6 +282,7 @@ form {
     margin: auto;
     text-align: center;
   }
+
   .works {
     padding: 0 6%;
     margin: auto;
@@ -338,11 +338,6 @@ form {
     color: #344563;
   }
 
-  .works {
-    margin: 6%;
-    max-width: 769px;
-  }
-
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -364,6 +359,7 @@ form {
   .div ul li {
     display: flex;
   }
+
   .s-card {
     border: 0;
   }
@@ -429,5 +425,5 @@ form {
   i {
     display: none;
   }
-  
+
 }
