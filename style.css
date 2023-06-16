@@ -2,12 +2,6 @@
   font-family: "Inter", sans-serif;
 }
 
-@supports (font-variation-settings: normal) {
-  :root {
-    font-family: "Inter var", sans-serif;
-  }
-}
-
 .wrap {
   max-width: 768px;
   min-width: 375px;
