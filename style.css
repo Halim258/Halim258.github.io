@@ -32,6 +32,10 @@ section {
   background-repeat: no-repeat;
 }
 
+nav ul {
+  display: none;
+}
+
 h1 {
   font-weight: 700;
   font-size: 40px;
