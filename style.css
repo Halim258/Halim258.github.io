@@ -295,3 +295,17 @@ form {
   font-weight: 400;
   font-size: 13px;
 }
+
+@media (min-width: 769px) and (max-width: 1920px) {
+  .wrap {
+    padding: 0 6%;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+  }
+ }
