@@ -32,6 +32,10 @@ section {
   background-repeat: no-repeat;
 }
 
+nav ul {
+  display: none;
+}
+
 h1 {
   font-weight: 700;
   font-size: 40px;
@@ -270,6 +274,18 @@ form {
 
 .btns {
   transform: translateX(40%);
+}
+
+.social-icons a {
+  color: #505f79;
+  font-size: 1.7em;
+  margin: 0 7px;
+  display: inline-block;
+  transition: transform 1.8s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(2.1);
 }
 
 .last-container {
