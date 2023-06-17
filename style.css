@@ -123,6 +123,10 @@ h3 {
   margin-bottom: 0;
 }
 
+.div {
+  width: 100%;
+}
+
 .small-icon {
   display: flex;
   justify-content: space-between;
@@ -345,13 +349,8 @@ form {
     align-items: center;
   }
 
-  nav {
-    transform: translateY(-160%);
-  }
-
   ul li {
     list-style: none;
-    margin: 0 1rem;
   }
 
   ul li a {
@@ -362,6 +361,10 @@ form {
     color: #344563;
   }
 
+  .lang-icon li {
+    font-size: 13px;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -369,19 +372,8 @@ form {
     margin: auto;
   }
 
-  .small-icon {
-    padding: 6%;
-    width: 50%;
-    text-align: center;
-    gap: 0;
-  }
-
-  .div ul {
-    display: flex;
-  }
-
-  .div ul li {
-    display: flex;
+  .card {
+    min-width: 320px;
   }
 
   .s-card {
@@ -446,5 +438,9 @@ form {
     background-repeat: no-repeat;
     width: 100%;
     border: 0;
+  }
+
+  .burger {
+    display: none;
   }
 }
