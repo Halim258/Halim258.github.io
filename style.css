@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: "Inter", sans-serif;
 }
@@ -275,10 +280,6 @@ form {
   margin-top: 1.5rem;
 }
 
-.btns {
-  transform: translateX(40%);
-}
-
 .last-container {
   display: flex;
   flex-direction: column;
@@ -311,19 +312,8 @@ form {
     text-align: center;
   }
 
-  .works {
-    padding: 0 6%;
-    margin: auto;
-    transform: translateX(-33%);
-  }
-
   .resent {
     text-align: center;
-    transform: translateX(60%);
-  }
-
-  .resents {
-    transform: translateX(-10%);
   }
 
   .card-b {
@@ -351,6 +341,7 @@ form {
 
   ul li {
     list-style: none;
+    margin: 0 15px;
   }
 
   ul li a {
@@ -369,7 +360,7 @@ form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin: auto;
+    margin-right: 320px;
   }
 
   .card {
@@ -405,7 +396,6 @@ form {
 
   .btn {
     display: block;
-    transform: translateX(-15%);
   }
 
   div {
