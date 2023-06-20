@@ -76,7 +76,7 @@ Visual Studio Code using HTML and Css Languages
 
 > You can use my repository as a helpful guide to understand and create your own project on the third day of the first week in the initial module of the Microverse program. Take a look at my README.md file to see an example of how your customized README.md file should look like after applying the Microverse template. It's designed to make things easier for you!
 ### Prerequisites
-In order to run this project you need: to dowload it or clone it to your machine.
+In order to run this project you need to download or clone it to your machine.
 
 
 ### Setup
@@ -88,9 +88,12 @@ Clone this repository to your desired folder:
 1- Click the green "code" button
 2- Choose "download" ZIP option
 3- After download is completed, right click on the file then choose "extract all"
-4- open the folder in your desired code editor (Visual Studio Code is a recommended option)
+4- Open the folder in your desired code editor (Visual Studio Code is a recommended option)
 
 
+### Install
+
+There is no installation required for this project. It is a static website built with HTML and CSS, so you can simply open the HTML file in your web browser to view it.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -163,3 +166,7 @@ This project is [MIT](./LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🌐 Live Demo
+You can check out the live demo of this project [here](https://halim258.github.io/).
+
