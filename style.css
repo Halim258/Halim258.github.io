@@ -67,6 +67,12 @@ p {
   color: #505f79;
   font-size: 1.7em;
   margin: 0 7px;
+  display: inline-block;
+  transition: transform 1.8s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(8.1);
 }
 
 .scroll {
@@ -171,6 +177,13 @@ h3 {
   gap: 10px;
   border: none;
   margin: 24px;
+  transition: 0.7s ease;
+}
+
+.btn:hover {
+  scale: 1.1;
+  background: #fff;
+  color: #36b37f;
 }
 
 .a-m {
