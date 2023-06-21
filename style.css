@@ -177,6 +177,13 @@ h3 {
   gap: 10px;
   border: none;
   margin: 24px;
+  transition: 0.7s ease;
+}
+
+.btn:hover {
+  scale: 1.1;
+  background: #fff;
+  color: #36b37f;
 }
 
 .a-m {
