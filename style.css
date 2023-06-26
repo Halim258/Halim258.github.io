@@ -20,6 +20,28 @@
   align-items: center;
 }
 
+.nav {
+  display: flex;
+}
+
+.higher-links {
+  position: fixed;
+  left: -100%;
+}
+
+.higher-link {
+  margin: 16px 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #44504a;
+}
+
+.Higher-links.active {
+  left: 0;
+}
+
 section {
   padding: 0 27px;
 }
@@ -443,7 +465,7 @@ form {
     border: 0;
   }
 
-  .burger {
+  .hamburger {
     display: none;
   }
 }
