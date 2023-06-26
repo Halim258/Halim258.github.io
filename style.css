@@ -29,9 +29,9 @@
   left: -100%;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(247, 241, 241);
   width: 100%;
-  transition: 0.5s;
+  transition: 0.6s;
   height: 100em;
   z-index: 999;
 }
@@ -39,12 +39,11 @@
 .higher-link {
   margin: 16px 0;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: #4a5750;
+  font-size: 35px;
+  line-height: 40px;
+  color: #4c5651;
 }
 
 .higher-links.active {
