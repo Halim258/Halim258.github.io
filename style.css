@@ -30,15 +30,16 @@
 }
 
 .higher-link {
+  display: block;
   margin: 16px 0;
   text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  color: #44504a;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #1b1c1c;
 }
 
-.Higher-links.active {
+.higher-links.active {
   left: 0;
 }
 
