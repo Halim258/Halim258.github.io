@@ -8,6 +8,7 @@ const projects = [
     btnSourceHref: 'https://github.com/PierreBarba',
     imagen: './crossimg.svg',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
+    btn: 'see project',
 
   },
   {
@@ -19,6 +20,7 @@ const projects = [
     btnSourceHref: 'https://github.com/PierreBarba',
     imagen: './crossimg.svg',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
+    btn: 'see project',
 
   },
   {
@@ -30,6 +32,7 @@ const projects = [
     btnSourceHref: 'https://github.com/PierreBarba',
     imagen: './crossimg.svg',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
+    btn: 'see project',
   },
   {
     url: './imgdesktopPopUp.svg',
@@ -40,6 +43,7 @@ const projects = [
     btnSourceHref: 'https://github.com/PierreBarba',
     imagen: './crossimg.svg',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
+    btn: 'see project',
   },
   {
     url: './imgdesktopPopUp.svg',
@@ -50,6 +54,7 @@ const projects = [
     btnSourceHref: 'https://github.com/PierreBarba',
     imagen: './crossimg.svg',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
+    btn: 'see project',
   },
   {
     url: './imgdesktopPopUp.svg',
@@ -60,6 +65,7 @@ const projects = [
     btnLiveHref: 'https://pierrebarba.github.io/portfolio-setup-and-movile-first/',
     btnSourceHref: 'https://github.com/PierreBarba',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
+    btn: 'see project',
   },
 ];
 
@@ -111,4 +117,29 @@ projects.forEach((project) => {
   const h3J = document.createElement('h3');
   cardJ.appendChild(h3J);
   h3J.innerHTML = project.titulo
+
+  const ulJ = document.createElement('ul');
+  cardJ.appendChild(ulJ);
+  ulJ.classList.add('small-icon');
+
+  const liJ = document.createElement('li');
+  ulJ.appendChild(liJ);
+  liJ.innerHTML = project.tecnologias[0];
+
+  const liJ1 = document.createElement('li');
+  ulJ.appendChild(liJ1);
+  liJ1.innerHTML = project.tecnologias[1];
+
+  const liJ2 = document.createElement('li');
+  ulJ.appendChild(liJ2);
+  liJ2.innerHTML = project.tecnologias[2];
+
+  const liJ3 = document.createElement('li');
+  ulJ.appendChild(liJ3);
+  liJ3.innerHTML = project.tecnologias[3];
+
+  const buttonJ = document.createElement('button');
+  cardJ.appendChild(buttonJ);
+  buttonJ.innerHTML = project.btn;
+  buttonJ.classList.add('btn');
 })
