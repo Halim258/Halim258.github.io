@@ -333,6 +333,11 @@ form {
   margin: 1.5rem 0;
 }
 
+.pop-up {
+  height: 100px;
+  background-color: black;
+}
+
 .email {
   margin-bottom: 2rem;
 }
@@ -342,6 +347,14 @@ form {
   padding: 10px;
   font-weight: 400;
   font-size: 13px;
+}
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 769px) {
