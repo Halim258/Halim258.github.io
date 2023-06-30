@@ -111,8 +111,8 @@ projects.forEach((project) => {
   const picJ = document.createElement('img');
   picJ.classList.add('pic');
   cardJ.appendChild(picJ);
-  picJ.setAttribute('src','./pic/empty.jpg');
-  picJ.setAttribute('alt','empty image');
+  picJ.setAttribute('src', './pic/empty.jpg');
+  picJ.setAttribute('alt', 'empty image');
 
   const h3J = document.createElement('h3');
   cardJ.appendChild(h3J);
