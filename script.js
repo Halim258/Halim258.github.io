@@ -111,12 +111,12 @@ projects.forEach((project) => {
   const picJ = document.createElement('img');
   picJ.classList.add('pic');
   cardJ.appendChild(picJ);
-  picJ.setAttribute('src', './pic/empty.jpg');
-  picJ.setAttribute('alt', 'empty image');
+  picJ.setAttribute('src','./pic/empty.jpg');
+  picJ.setAttribute('alt','empty image');
 
   const h3J = document.createElement('h3');
   cardJ.appendChild(h3J);
-  h3J.innerHTML = project.titulo
+  h3J.innerHTML = project.titulo; 
 
   const ulJ = document.createElement('ul');
   cardJ.appendChild(ulJ);
@@ -124,22 +124,22 @@ projects.forEach((project) => {
 
   const liJ = document.createElement('li');
   ulJ.appendChild(liJ);
-  liJ.innerHTML = project.tecnologias[0];
+  liJ.innerHTML = project.tecnologias.length > 0 ? project.tecnologias[0] : "";
 
   const liJ1 = document.createElement('li');
   ulJ.appendChild(liJ1);
-  liJ1.innerHTML = project.tecnologias[1];
+  liJ1.innerHTML = project.tecnologias.length > 1 ? project.tecnologias[1] : "";
 
   const liJ2 = document.createElement('li');
   ulJ.appendChild(liJ2);
-  liJ2.innerHTML = project.tecnologias[2];
+  liJ2.innerHTML = project.tecnologias.length > 2 ? project.tecnologias[2] : "";
 
   const liJ3 = document.createElement('li');
   ulJ.appendChild(liJ3);
-  liJ3.innerHTML = project.tecnologias[3];
+  liJ3.innerHTML = project.tecnologias.length > 3 ? project.tecnologias[3] : "";
 
   const buttonJ = document.createElement('button');
   cardJ.appendChild(buttonJ);
   buttonJ.innerHTML = project.btn;
   buttonJ.classList.add('btn');
-})
+});
